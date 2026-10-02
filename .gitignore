@@ -1,0 +1,29 @@
+# Build output
+/build_x64/
+/build_tests/
+/release/
+/out/
+
+# Dependencies fetched by CMake (OBS sources, obs-deps, Qt)
+/.deps/
+
+# Local reference sources, not part of the project
+/.refs/
+.prompts/2026-10-02-face-autoframe/
+
+# CMake build number cache (obs-plugintemplate)
+/cmake/.CMakeBuildNumber
+*.lock.json
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+.cache/
+compile_commands.json
+CMakeUserPresets.json
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
